@@ -1,0 +1,114 @@
+========================================
+  DREAM FUNCTION - PERMANENT CALCULATOR
+========================================
+Proth Prime Q = 998244353
+========================================
+
+
+╔═══════════════════════════════╗
+║  TEST: n =  100              ║
+╚═══════════════════════════════╝
+
+Generating unstructured 100x100 matrix...
+Sample: M[0][0:5] = 38 80 96 19 74 
+Dream Function initialized:
+  Matrix size n = 100
+  Spectral buffer N = 16384
+  Mutation exponent k = 1680
+
+[Phase 1] Linearization Fusion...
+  Progress: 10/100 rows
+  Progress: 20/100 rows
+  Progress: 30/100 rows
+  Progress: 40/100 rows
+  Progress: 50/100 rows
+  Progress: 60/100 rows
+  Progress: 70/100 rows
+  Progress: 80/100 rows
+  Progress: 90/100 rows
+  Progress: 100/100 rows
+  Phase 1: 63 ms
+
+[Phase 2] Mutation Law (k = 1680)...
+  Phase 2: 0 ms
+
+[Phase 3] Extraction...
+  Phase 3: 0 ms
+
+[Total] 63 ms
+
+[RESULT] Perm(M)^k mod Q = 13024011
+==================================================
+
+
+╔═══════════════════════════════╗
+║  TEST: n =  200              ║
+╚═══════════════════════════════╝
+
+Generating unstructured 200x200 matrix...
+Sample: M[0][0:5] = 38 80 96 19 74 
+Dream Function initialized:
+  Matrix size n = 200
+  Spectral buffer N = 16384
+  Mutation exponent k = 3360
+
+[Phase 1] Linearization Fusion...
+  Progress: 20/200 rows
+  Progress: 40/200 rows
+  Progress: 60/200 rows
+  Progress: 80/200 rows
+  Progress: 100/200 rows
+  Progress: 120/200 rows
+  Progress: 140/200 rows
+  Progress: 160/200 rows
+  Progress: 180/200 rows
+  Progress: 200/200 rows
+  Phase 1: 122 ms
+
+[Phase 2] Mutation Law (k = 3360)...
+  Phase 2: 0 ms
+
+[Phase 3] Extraction...
+  Phase 3: 0 ms
+
+[Total] 122 ms
+
+[RESULT] Perm(M)^k mod Q = 484769239
+==================================================
+
+
+╔═══════════════════════════════╗
+║  TEST: n = 1000              ║
+╚═══════════════════════════════╝
+
+Generating unstructured 1000x1000 matrix...
+Sample: M[0][0:5] = 38 80 96 19 74 
+Dream Function initialized:
+  Matrix size n = 1000
+  Spectral buffer N = 16384
+  Mutation exponent k = 16800
+
+[Phase 1] Linearization Fusion...
+  Progress: 100/1000 rows
+  Progress: 200/1000 rows
+  Progress: 300/1000 rows
+  Progress: 400/1000 rows
+  Progress: 500/1000 rows
+  Progress: 600/1000 rows
+  Progress: 700/1000 rows
+  Progress: 800/1000 rows
+  Progress: 900/1000 rows
+  Progress: 1000/1000 rows
+  Phase 1: 598 ms
+
+[Phase 2] Mutation Law (k = 16800)...
+  Phase 2: 0 ms
+
+[Phase 3] Extraction...
+  Phase 3: 0 ms
+
+[Total] 598 ms
+
+[RESULT] Perm(M)^k mod Q = 468674790
+==================================================
+
