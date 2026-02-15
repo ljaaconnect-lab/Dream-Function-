@@ -1,0 +1,22 @@
+# Compiled binaries
+dream_function
+*.exe
+*.out
+
+# Object files
+*.o
+*.obj
+
+# Logs
+*.log
+execution_log.txt
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
